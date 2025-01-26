@@ -18,6 +18,7 @@ public class test1 extends TeatBase {
 
      @Test
     public void pokupka(){
+
         String Otcuda = "Саратов";
         String Kuda = "Москва";
         String DataTuda = "30.01.2025";
@@ -25,6 +26,7 @@ public class test1 extends TeatBase {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.poiskBiletov(Otcuda,Kuda,DataTuda, DataObratno);
         time();
+
 
     }
 
